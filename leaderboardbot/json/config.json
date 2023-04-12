@@ -1,0 +1,28 @@
+{
+    "discord_token": "",
+    "battlemetrics_token": "",
+    "organization_id": 25433,
+    "prefix": "!",
+    "error_channel": 0,
+    "separate_servers": true,
+    "weekly_channel": 0,
+    "daily_channel": 0,
+    "weekly_channels": {
+        "14338732": 0, 
+        "3298068": 0,
+        "14487951": 0
+    },
+    "daily_channels": {
+        "14338732": 0, 
+        "3298068": 0,
+        "14487951": 0
+    },
+    "show_daily": true,
+    "show_weekly": true,
+    "application_id": 0,
+    "daily_title": {
+        "14338732": "Server one title", 
+        "3298068": "Server two title", 
+        "14487951": "Server three title"
+    }
+}

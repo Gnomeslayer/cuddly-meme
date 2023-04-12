@@ -1,0 +1,6 @@
+discord
+discord.py
+aiohttp
+beautifulsoup4
+html2image
+Pillow

@@ -1,0 +1,17 @@
+{
+    "tokens": {
+        "discord_token": "",
+        "battlemetrics_token": "",
+        "steam_token": ""
+    },
+    "additional": {
+        "prefix": "!",
+        "application_id": 1234,
+        "output_path": "./statsimages",
+        "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    "cogs": {
+        "color": "0x9b59b6"
+    }
+    
+}

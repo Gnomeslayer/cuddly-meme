@@ -1,0 +1,20 @@
+{
+    "tokens": {
+        "discord_token": "",
+        "battlemetrics_token": "",
+        "steam_token": ""
+    },
+    "additional": {
+        "prefix": "!",
+        "hidden_results": true,
+        "application_id": 123,
+        "output_path": "./statsimages",
+        "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "footerlogo": "https://cdn.discordapp.com/attachments/1072438897847586837/1086533712881139765/RAH_LOGO.png",
+        "organization_id": 123
+    },
+    "cogs": {
+        "color": "0x9b59b6"
+    }
+    
+}

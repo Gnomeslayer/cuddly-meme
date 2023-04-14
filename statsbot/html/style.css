@@ -1,0 +1,133 @@
+:root {
+    --bg-color: #140f0f;
+    --banner-heading-text: rgb(214, 67, 67);
+    --banner-bg-color: #4e1b15;
+    --stat-container-headings: rgb(235, 104, 104);
+    --stat-heading-bg-colors: #442422;
+    --text-color: rgb(202, 133, 133);
+    --text-bg-color: rgb(44, 24, 24);
+}
+
+html {
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+p {
+    margin-block: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.all-stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+/**-------------- HEADING BANNER ----------------**/
+
+.player-info-heading-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--banner-bg-color);
+}
+
+.player-info-heading {   
+    color: var(--banner-heading-text);
+}
+
+/**---------- TOP CONTAINER -----------**/
+
+.main-stats-heading>h2 {
+    margin: 0.2em;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.avatar-stats-container {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.player-avatar>img {
+    border-radius: 1em;
+}
+
+.kills-deaths {
+    display: flex;
+    gap: 1.5em;
+}
+
+.separator {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: var(--text-color);
+    height: 0.1em;
+    border-radius: 50%;
+}
+
+.middle-stats {
+    display: flex;
+    gap: 1.5em;
+}
+
+.bottom-stats {
+    margin-top: 1.5em;
+}
+
+/**---------- GEN STATS CONTAINERS -----------**/
+
+.gen-stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: var(--text-bg-color);
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.gen-stats-heading, 
+.main-stats-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--stat-heading-bg-colors);
+    border-radius: 0.3em;
+    padding: 0.3em;
+    margin: 0;
+    color: var(--stat-container-headings);
+}
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.stat-container {
+    display: flex;
+    gap: 0.5em;
+}
+
+.stat-heading {
+    font-weight: bold;
+}
+
+.middle-row-container {
+    display: flex;
+    gap: 1.5em;
+}

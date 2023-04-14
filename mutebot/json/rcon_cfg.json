@@ -1,0 +1,14 @@
+{
+    "admin_channel": 1072438854042267648,
+    "channel": 1072438919460818994,
+    "mute_color": "0x1abc9c",
+    "mute_embed_title": "Hello World",
+    "mute_embed_description": "Goodbye my pretties",
+    "footer": "Developed by Gnomeslayer#5551",
+    "unmute_color": "0x1abc9c",
+    "unmute_embed_title": "Hello",
+    "unmute_embed_description": "World",
+    "enable_profile_notes": true,
+    "enable_brief_chat_history": true,
+    "message_count": 10
+}

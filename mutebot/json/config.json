@@ -1,0 +1,9 @@
+{
+    "discord_token": "",
+    "battlemetrics_token": "",
+    "steam_token": "",
+    "allowed_channels": [1072438854042267648, 1072438854042267648],
+    "application_id": 917258496255336479,
+    "organization_id": 25433,
+    "prefix": "!"
+}
